@@ -1,0 +1,19 @@
+[
+  {"name":"Pimenta", "icon":"🌶️"},
+  {"name":"Damasco", "icon":"🍑"},
+  {"name":"Laranja", "icon":"🍊"},
+  {"name":"Abacaxi", "icon":"🍍"},
+  {"name":"Maçã", "icon":"🍎"},
+  {"name":"Morango", "icon":"🍓"},
+  {"name":"Melancia", "icon":"🍉"},
+  {"name":"Uva", "icon":"🍇"},
+  {"name":"Banana", "icon":"🍌"},
+  {"name":"Kiwi", "icon":"🥝"},
+  {"name":"Manga", "icon":"🥭"},
+  {"name":"Pera", "icon":"🍐"},
+  {"name":"Cereja", "icon":"🍒"},
+  {"name":"Melão", "icon":"🍈"},
+  {"name":"Limão", "icon":"🍋"},
+  {"name":"Pêssego", "icon":"🍑"},
+  {"name":"Coco", "icon":"🥥"}
+]
