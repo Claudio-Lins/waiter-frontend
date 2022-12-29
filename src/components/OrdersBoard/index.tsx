@@ -40,11 +40,12 @@ export function OrdersBoard({
     const status = selectedOrder?.status === 'WAITING'
       ? 'IN_PRODUCTION'
       : 'DONE';
+    const table = selectedOrder?.table;
     toast.success(`Pedido da mesa ${selectedOrder?.table} teve o STATUS alterado com sucesso!`);
     onChangeOrderStatus(selectedOrder!._id, status);
     setIsLoading(false);
     setIsModalVisible(false);
-    await api.patch(`/orders/${selectedOrder?._id}`, { status });
+    await api.patch(`/orders/${selectedOrder?._id}`, { status, table });
   }
 
   async function handleCancelOrder() {
